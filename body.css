@@ -1,0 +1,117 @@
+#contenido {
+  clear: both;
+  padding: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color:#ffffff
+}
+
+.titulo-principal {
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 10px 10px 16px rgba(255, 255, 255, 0.295);
+  margin-bottom: 20px;
+}
+
+.titulo-barca {
+  font-size: 48px;
+  background: linear-gradient(to right, #004D98 0%, #A50044 100%);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulos {
+  font-size: 48px;
+  background: linear-gradient(to right, #00FFF7, #8F00FF); 
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.barca {
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #004D98 0%, #A50044 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.sobremi {
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #b5b8bb 0%, #767779 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.videojuegos {
+  background: linear-gradient(to right, #00FFF7, #8F00FF); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+	background-color: #222;
+	color: #fff;
+	border: 1px solid #0f0;
+	border-radius: 6px;
+	padding: 10px;
+	font-size: 14px;
+	outline: none;
+	transition: box-shadow 0.3s;
+  width: 400px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	box-shadow: 0 0 10px #00ff00;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: #aaa;
+}
+
+textarea {
+	resize: vertical;
+	min-height: 80px;
+}
+
+input[type="submit"] {
+	background-color: #00ff00;
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #00cc00;
+}

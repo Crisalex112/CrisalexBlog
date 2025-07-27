@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Crisalex Blog</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="body.css">
+
+</head>
+<body>
+
+  <header>
+
+    <div class="barra-menu">
+      <span class="logo">CRISALEX<sub>blog</sub></span>  
+      <nav>
+        <ul class="nav">
+          <li><a href="principal.html">Inicio</a></li>
+          <li><a href="#">Juegos</a>
+            <ul>
+              <li><a href="Brawl.html" target="_blank">Brawl Stars</a></li>
+              <li><a href="clash.html" target="_blank">Clash Royale</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Fútbol</a>
+            <ul>
+              <li><a href="barcelona.html" target="_blank">FC Barcelona</a></li>
+            </ul>
+          </li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#futbol">Sobre Mi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <hr class="separador">
+
+  <div id="contenido">
+        <h1 class="titulo-principal"><b>Bienvenido a mi Blog</b></h1>
+        <p>Se bienvenido a mi blog, aqui hablaremos de mis dos pasiones en la vida: Los videojuegos
+            y el futbol(especialmente el Barcelona). Encontraras noticias, analisis y de vez en cuando
+            un desahogo por el club. Si compartes esas pasiones, estas en el lugar indicado.
+        </p>
+        <br/>
+        <section style="padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+            <h2 class="videojuegos">VideoJuegos</h2>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <img src="videojuegos.jpg" alt="videojuego" style="width: 250px; border-radius: 10px;">
+    
+                <p style="flex: 1; font-size: 18px;">
+                    En esta sección hablaremos de los juegos mas interesantes que vaya encontrando, todo
+                    el contenido que vaya actualizando sera desde la perspectiva de un aficionado y no 
+                    de un experto. Tambien, tenemos dos secciones exclusivas para mis dos juegos 
+                    preferidos: <a href="Brawl.html" target="_blank">Brawl Stars</a> y 
+                    <a href="clash.html" target="_blank">Clash Royale</a>.
+                </p>
+            </div>
+        </section>
+        <br/>
+        <section style="padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+            <h2 class="barca">Fútbol</h2>
+            <div style="display: flex; align-items: center; gap: 20px;" id="futbol">
+                <img src="pedri.jpg" alt="futbol" style="width: 250px; border-radius: 10px;">
+                <p style="flex: 1; font-size: 18px;">
+                    En esta seccion hablaremos del mejor deporte del mundo: El fútbol. Encontraras opiniones
+                    de varios temas y sobre todo del club que se ha ganado mi corazon:El <a href="barcelona.html" target="_blank">FC Barcelona</a>.
+                    Aqui encontraras opiniones de fichajes, salidas, rendimiento del equipo, polemicas y 
+                    mas.
+                </p>
+            </div>
+        </section>
+        <br>
+        <section style="padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+             <h2 class="sobremi">Sobre Mi</h2>
+             <div style="display: flex; align-items: center; gap: 20px;" id="sobremi">
+                <img src="letra.png" alt="futbol" style="width: 250px; border-radius: 10px;">
+                <p style="flex: 1; font-size: 18px;">
+                    Soy un estudiante del bachillerato tecnico en Informatica que aun busca que camino
+                    escoger en la universidad. Me interesa la parte física del computador aunque aun no
+                    sepa mucho sobre eso. Estuve involucrado en dos concursos de programacion obteniendo
+                    unos resultados no tan buenos como esperaba.
+                    Tengo como hobby la cocina en especial la preparacion de postres, aunque no sea bueno 
+                    en eso, siempre hago el intento para que me salga lo mejor posible.
+                    Me gusta el futbol y el club que sigo es el Fc Barcelona, lo apoye en los peores
+                    momentos que pudo tener el club y seguire apoyandolo en cualquier momento.
+                    Soy un amante de los videojuegos en especial de los juegos de batallas o de aventuras
+                    por mundos abiertos. 
+                </p>
+            </div>
+        </section>
+        <br/>
+        <br/>
+        <br/>
+        <div id="contacto">
+          <form action="https://formsubmit.co/c5a7196da3b53877de65f73e9ae27c6d" method="post" target="_blank">
+            <h1 style="color: #39FF14; text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 20px #39FF14; ">CONTACTO</h1>
+            <input type="text" name="nombre" placeholder="Nombres y Apellidos" required >
+            <br><br><br>
+            <input type="email" name="correo" placeholder="Correo Electronico" required>
+            <br><br><br>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="4" required></textarea>
+            <br><br><br>
+            <input type="submit" placeholder="Enviar">
+            <br><br><br> 
+          </form>
+        </div>
+  </div>
+</body>
+</html>
